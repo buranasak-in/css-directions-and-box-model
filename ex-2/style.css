@@ -1,1 +1,22 @@
 /* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    padding: 16px; 
+    height: 100vh;
+    display: flex;
+}
+
+body div {
+    flex: 1;
+    background-color: khaki;
+    border: 24px solid crimson; 
+    outline: 16px solid black; 
+    text-align: center;
+    padding-top: 30px; 
+}
